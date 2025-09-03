@@ -30,6 +30,8 @@ public class Enemy : MonoBehaviour
     {
         vida -= dano;
 
+
+
         if ( vida <= 0 ) { Destroy(gameObject); }
     }
 }
